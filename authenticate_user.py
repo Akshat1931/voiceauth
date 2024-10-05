@@ -32,7 +32,7 @@ def authenticate_user(username):
     print(f"Similarity Score: {similarity[0][0]}")
     
     # Authentication based on similarity score threshold
-    if similarity[0][0] > 0.95:
+    if similarity[0][0] > 0.87:
         print("Authentication successful!")
         return True
     else:
